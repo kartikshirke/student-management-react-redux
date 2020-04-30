@@ -23,6 +23,7 @@ class Show extends Component {
                             <p>GPA: {el.gpa}</p>
                         </div>
                     ))}
+                    <button className="button-class" onClick={()=> this.props.history.push('/')}>Home</button>
                 </div>
             </div>
 

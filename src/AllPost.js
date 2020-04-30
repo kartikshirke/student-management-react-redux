@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 
-import './list.css'
 class AllPost extends Component {
     constructor(props) {
         super(props);
@@ -13,10 +12,10 @@ class AllPost extends Component {
                  <h1 className="post_heading">All Students Record</h1>
                 <div className="table">
 
-                    <table style={{ width: '50%' }}>
+                    <table style={{ width: '80%' }}>
                         <tr>
-                            <th>Firstname</th>
-                            <th>Lastname</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
                             <th>Phone</th>
                             <th>GPA</th>
                             <th>Delete</th>

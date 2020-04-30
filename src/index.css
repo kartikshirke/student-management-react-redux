@@ -55,6 +55,13 @@ body {
   font-family:'Work Sans',sans-serif;
   }
   
+  .show-container{
+    margin: auto;
+    width: 54%;
+    background-color:white; 
+    overflow:hidden
+  
+  }
   
   .post_heading {
   text-align:center;
@@ -144,7 +151,14 @@ body {
   word-wrap: break-word;
   }
   
-  
+  .show_message {
+    font-size:20px;
+    font-weight: 200;
+    line-height: 1.4rem;
+    text-align:left;
+    word-wrap: break-word
+    }
+   
   .post_message {
   font-size:25px;
   font-weight: 200;
@@ -181,3 +195,21 @@ body {
     border:none;
     font-size:20px;
     }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      margin:auto;
+    }
+    
+    th {
+      background-color: #dddddd;
+    }
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+   

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import Post from './Post';
+import { connect } from 'react-redux'
 
 import './list.css'
 class AllPost extends Component {

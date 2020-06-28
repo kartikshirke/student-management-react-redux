@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-# Project Description
+
+# Demo link: https://student-management-react-redux.netlify.app/
+
+## Project Description
 In this project, I have used Redux,React,Javasocript,HTML5,CSS3
 
 ## Available Scripts
